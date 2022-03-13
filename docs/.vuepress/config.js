@@ -48,7 +48,7 @@ module.exports = {
        nav: [
          { text: '指南1', link: '/guide1/', ariaLabel: '指南' },
          { text: '指南2', link: '/guide2/', ariaLabel: '指南' },
-         { text: 'Github', link: 'https://github.com/openHacking/vuepress-template' }
+         { text: 'Github', link: 'https://github.com/jaronnie/vuepress-template' }
        ],
        sidebar: {
          '/guide1/': [
@@ -76,7 +76,7 @@ module.exports = {
         algolia: {},
         nav: [
           { text: 'Guide', link: '/en/guide1/', ariaLabel: 'Guide' },
-					{ text: 'Github', link: 'https://github.com/openHacking/vuepress-template' }
+					{ text: 'Github', link: 'https://github.com/jaronnie/vuepress-template' }
         ],
         sidebar: {
           '/en/guide1/': [

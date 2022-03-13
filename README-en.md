@@ -10,9 +10,6 @@ vuepress-template is a simple VuePress case template. The purpose is to allow us
 
 http://vuepress-template.jaronnie.com
 
-## Documentation
-
-[Online Documentation](https://openhacking.github.io/vuepress-template/)
 
 ## Content
 
