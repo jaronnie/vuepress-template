@@ -1,5 +1,5 @@
 module.exports = {
-  base: '/vuepress-template/',
+  base: '/',
   locales: {
     // 键名是该语言所属的子路径
     // 作为特例，默认语言可以使用 '/' 作为其路径。
@@ -46,15 +46,18 @@ module.exports = {
        // 当前 locale 的 algolia docsearch 选项
        algolia: {},
        nav: [
-         { text: '指南', link: '/guide/', ariaLabel: '指南' },
-         { text: '学习', link: 'https://lwebapp.com', ariaLabel: '学习' },
+         { text: '指南1', link: '/guide1/', ariaLabel: '指南' },
+         { text: '指南2', link: '/guide2/', ariaLabel: '指南' },
          { text: 'Github', link: 'https://github.com/openHacking/vuepress-template' }
        ],
        sidebar: {
-         '/guide/': [
+         '/guide1/': [
            '',
            'theme',
            'plugin'
+         ],
+         '/guide2/': [
+           '',
          ],
          '/resource/': [],
        }
@@ -72,12 +75,11 @@ module.exports = {
         },
         algolia: {},
         nav: [
-          { text: 'Guide', link: '/en/guide/', ariaLabel: 'Guide' },
-          { text: 'Study', link: 'https://lwebapp.com', ariaLabel: 'Study' },
+          { text: 'Guide', link: '/en/guide1/', ariaLabel: 'Guide' },
 					{ text: 'Github', link: 'https://github.com/openHacking/vuepress-template' }
         ],
         sidebar: {
-          '/en/guide/': [
+          '/en/guide1/': [
             '',
             'theme',
             'plugin'
