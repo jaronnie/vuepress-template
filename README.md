@@ -6,6 +6,9 @@ Vuepress Template
 
 vuepress-template是一个简单的VuePress案例模板，目的是让用户可以直接clone这个仓库，作为初始化一个VuePress网站启动项目，然后在这个项目的基础上新增自定义配置和功能。
 
+## 在线 Demo
+
+http://vuepress-template.jaronnie.com
 
 ## 文档
 

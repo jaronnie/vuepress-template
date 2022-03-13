@@ -6,6 +6,9 @@ English | [简体中文](./README.md)
 
 vuepress-template is a simple VuePress case template. The purpose is to allow users to directly clone this repository as a startup project for initializing a VuePress website, and then add custom configurations and functions based on this project.
 
+## Online Demo
+
+http://vuepress-template.jaronnie.com
 
 ## Documentation
 
