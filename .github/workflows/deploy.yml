@@ -13,5 +13,5 @@ jobs:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           TARGET_REPO: jaronnie/vuepress-template
           TARGET_BRANCH: main
-          BUILD_SCRIPT: yarn && yarn build
+          BUILD_SCRIPT: npm i && npm run docs:build
           BUILD_DIR: docs/.vuepress/dist/
